@@ -1,0 +1,28 @@
+.borderless td,
+.borderless th {
+  border: none;
+}
+
+/* Full-width labels and inputs */
+.form-label {
+  display: block;
+  font-weight: bold;
+}
+
+.is-invalid {
+  border-color: red;
+}
+
+.text-danger {
+  font-size: 0.9rem;
+}
+
+/* Adjust row spacing */
+.row {
+  margin-top: 1rem;
+}
+
+/* Datepicker styling */
+ngb-datepicker {
+  display: block;
+}
