@@ -18,7 +18,6 @@ export class ServiceService {
         map(
           (user) => {
             if (user && user.token) {
-              // sessionStorage.setItem('userDetails', JSON.stringify(user));
               this.userdetails = user;
             }
 
